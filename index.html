@@ -1,13 +1,18 @@
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Robo Fight</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-  </head>
-  <body style="padding: 0; margin: 0; display: flex; align-items: center; justify-content: center; background-color: black">
-    <canvas id="canvas" style="width: min(100vw, 100vh); height: min(100vw, 100vh)"></canvas>
-  </body>
-  <script type="module" src="/src/main.ts"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGL Robot Fight</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="glCanvas"></canvas>
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('WebGL Robot Fight Initialized');
+        });
+    </script>
+</body>
 </html>
